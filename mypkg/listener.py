@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int16
+from person_msg.msg import Person
 
 def cb(msg):
     global node
