@@ -1,0 +1,6 @@
+name: test
+on: push
+join:
+  test:
+    runs-on: ubuntu-22.04
+    container: 
