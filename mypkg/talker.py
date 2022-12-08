@@ -14,11 +14,7 @@ class Talker():
         talker.pub.publish(msg)
         talker.n += 1
 
-def main():
-    rclpy.init()
-    node = Node("talker")
-    talker = Talker(node)
-    rclpy.spin(node)
-
-if __name__ == '__main__':
-    main()
+rclpy.init()
+node = Node("talker")
+talker = Talker(node)
+rclpy.spin(node)
