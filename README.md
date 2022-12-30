@@ -71,7 +71,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ...(以下省略)
 ```
 
-# 動作確認済み環境
+# 動作確認環境
 
  * Ubuntu 22.04
 
