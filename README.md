@@ -73,7 +73,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 # 必要なソフトウェア
 
- * ros2 foxy
+ * ros2 humble
 
 # 動作確認環境
 
