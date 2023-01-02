@@ -7,7 +7,7 @@
 * このリポジトリはROS2のパッケージです。
 * このリポジトリではtalker,listenerという二つのノードを使用することができます。また、この二つのノードを同時に立ち上げることのできるtalker_listener.launchというコマンドを使用することができます。
 * ROS2を未インストールの方は先にROS2のインストールをお願いします。
-* ROS2をインストールしたら以下のURLをクローンして下さい。
+* ROS2をインストールしたら以下のコマンドでクローンして下さい。
 ```
 $git clone https://github.com/Setsu4/mypkg.git
 $cd mypkg
@@ -16,7 +16,7 @@ $cd mypkg
 # talker,listener
 
 このノードを使用するにはターミナルが２つ必要です。
-talker側がcountupというトピックを通じて、16ビットの符号付整数型のメッセージを送り、listener側がそのメッセージを受信した順番通りにエディタに出力します。
+talker側がcountupというトピックを通じて、16ビットの符号付整数型のメッセージを送り、listener側がそのメッセージを受信した順番通りにターミナルに出力します。
 終了する際は、無限ループする仕様になっているため強制的に終了してください。
 
 ## 実行例
@@ -73,7 +73,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 # 必要なソフトウェア
 
- * ros2 humble
+ * ROS2 humble
 
 # 動作確認環境
 
